@@ -7,7 +7,15 @@ char matrix[3][3] = {'1','2','3','4','5','6','7','8','9'};
 char player = 'X';
 char again;
 HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
+/*HANDLE h = GetStdHandle( STD_OUTPUT_HANDLE );
+	SetConsoleTextAttribute(h, 11);
 
+the number is the color 
+
+BLACK 0, BLUE 1, GREEN 2, CYAN 3, RED 4, MAGENTA 5,
+	BROWN 6, LIGHT GREY 7, DARK GREY 8, LIGHT BLUE 9,
+        LIGHT GREEN 10, LIGHT CYAN 11, LIGHT RED 12, 
+	LIGHT MAGENTA 13, YELLOW 14, WHITE 15, */
 void Draw()
 {
 	system("cls");
