@@ -20,7 +20,7 @@ void Draw()
 {
 	system("cls");
 	SetConsoleTextAttribute(h, 1);
-	cout << "My DAMN tick tick toe V1.0\n";
+	cout << "My tick tick toe V1.0\n";
 	SetConsoleTextAttribute(h, 15);
 	for (int i = 0; i < 3; i++)
 	{
