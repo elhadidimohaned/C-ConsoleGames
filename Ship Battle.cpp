@@ -59,7 +59,7 @@ int main()
 	cout << "----------\n";
 	while (1)
 	{
-		cout << "Hat coordinates yalla engiz: " << endl;
+		cout << "Hat coordinate: " << endl;
 		cin >> x >> y;
 		if (attack(x, y))
 		{
@@ -67,16 +67,16 @@ int main()
 			ships++;
 			if (ships == max_ships)
 			{
-				cout << "You Won bitch congratulations\n";
+				cout << "You Won congratulations\n";
 				show();
 				exit(0);
 			}
-			cout << "Bravo ya ro7 omk" << " reamning: " << max_ships - ships << endl;
+			cout << "Bravo" << " reamning: " << max_ships - ships << endl;
 		}
 		else
 		{
 			trys--;
-			cout << "HAHAHHAHA you missed ya fashel, " << "Number of ships is: " << max_ships - ships << endl
+			cout << "HAHAHHAHA you missed, " << "Number of ships is: " << max_ships - ships << endl
 				<< "\nYou have " << trys << " left" << endl;
 			if (trys == 0)
 			{
